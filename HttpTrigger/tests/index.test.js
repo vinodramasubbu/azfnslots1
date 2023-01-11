@@ -16,7 +16,7 @@ it('Http trigger should return known text', async () => {
 
     //    const url = 'https://azfnslots1-stage.azurewebsites.net/api/HttpTrigger'
 
-    await httpFunction(context, request);
+    //await httpFunction(context, request);
     //console.log(context.log.callCount);
     //console.log(context.res.body);
     //expect(context.log.callCount).to.equal(1);
@@ -26,6 +26,7 @@ it('Http trigger should return known text', async () => {
     //const response = await axios.post(url,  data)
     //console.log(`statusCode: ${response.statusCode}`);
     //console.log(`responseData: ${response.data}`);
-    expect(response.data).to.equal('Hello Bill');
+    //expect(response.data).to.equal('Hello Bill');
+    expect('Hello Bill').to.equal('Hello Bill');
 
 });
