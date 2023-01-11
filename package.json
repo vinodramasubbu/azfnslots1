@@ -1,0 +1,16 @@
+{
+  "name": "azfnslots1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "mocha --recursive '**/tests/*'"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "node-fetch": "^3.3.0",
+    "sinon": "^15.0.1"
+  }
+}
